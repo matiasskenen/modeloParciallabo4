@@ -1,0 +1,61 @@
+
+<---------------->
+
+Agregar mensajes de que ganaste para los dos juegos y de que perdi, con la opcion de volver a jugar.
+
+validar si vuelve a poner la letra equivocada. "m. m, m"
+
+arreglar chat y quien soy etiquetas
+
+validar mensaje antes de mandar en el chat
+
+
+<---------------->
+
+Para usar los juegos/chat tiene que estar logueado. [MARTES][LISTO]
+
+Cambiar imagen de ahorcado, puntuacion, que la letras no se puedan repetir/volver a usar. y mejorar el ganaste. [MARTES][LISTO]
+
+Mayor o menor: En un solo mazo, se va mostrando la carta y se pregunta si es mayor o menor. [LISTO]
+
+Darle 3 vidas al jugador y guardar puntuacion. [LISTO]
+
+Contraseña de 6 caracteres o mas.[LISTO]
+
+agregar preguntados [LISTO]
+
+y juego propio, mejorar
+
+agregar puntuacion a preguntados[LISTO]
+
+agregar tabla de puntuacion
+
+fondo en todos los juegos. [LISTO]
+
+agregar info de wili en quien soy.
+
+
+<---------------->
+
+
+ng add @angular/fire
+
+https://labo4-f8249.web.app
+
+ng build
+
+copiar archivos dilt a public
+
+firebase deploy --only hosting
+
+npm install
+
+ng serve -o
+
+npm install bootstrap
+
+----->
+
+
+ng generate service paises
+<---------------->

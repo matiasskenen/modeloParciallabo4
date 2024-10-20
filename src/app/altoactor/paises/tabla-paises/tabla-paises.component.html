@@ -1,0 +1,21 @@
+<div class="container">
+  <h4 class="mb-3">Seleccione un País</h4>
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">Nombre</th>
+        <th scope="col">Bandera</th>
+        <th scope="col">Acción</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let pais of paises">
+        <td>{{ pais.name.common }}</td>
+        <td><img [src]="pais.flags.png" alt="{{ pais.name.common }}" width="50"></td>
+        <td>
+          <button class="btn btn-primary" (click)="seleccionarPais(pais.name.common)">Seleccionar</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

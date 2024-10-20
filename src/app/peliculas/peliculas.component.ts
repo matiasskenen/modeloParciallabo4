@@ -1,14 +1,15 @@
 import { Component } from '@angular/core';
 import { Peliculainter } from '../interfces/peliculainter';
+import { TablaPeliculasComponent } from './componentes/tabla-peliculas/tabla-peliculas.component';
 
 @Component({
   selector: 'app-peliculas',
   standalone: true,
-  imports: [],
+  imports: [TablaPeliculasComponent],
   templateUrl: './peliculas.component.html',
   styleUrl: './peliculas.component.scss'
 })
-
+  
 
 export class PeliculasComponent 
 {
